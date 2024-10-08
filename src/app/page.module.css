@@ -1,31 +1,64 @@
 .body {
-    background-color: white;
-    padding: 50px;
-    color: black;
+  background-color: rgb(193, 138, 175);
+  padding: 50px;
+  color: rgb(250, 250, 250);
 }
 .articleCardWrapper {
-    border-width: 20px solid white;
-    display: flex;
-    border: 1px solid black;
-    margin-top: 40px;
-    padding: 15px;
-    gap: 20px;
-
+  border-width: 20px solid white;
+  display: flex;
+  border: 1px solid rgb(221, 10, 162);
+  margin-top: 40px;
+  padding: 15px;
+  gap: 20px;
+  background-color: pink;
+  border-radius: 10%;
 }
 
-
 .articleCardWrapper img {
-    height: 200px;
-    width: 200px;
+  height: 200px;
+  width: 200px;
+  border-radius: 10%;
 }
 
 .body h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .text {
-    line-height: 50px;
+  line-height: 50px;
 }
 .text h2 {
-    font-weight: bold;
+  font-weight: bold;
+}
+
+.articlePageHeaderWrapper {
+  background-size: cover;
+  min-height: 500px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  line-height: 40px;
+  background-position: center;
+}
+
+.color {
+  background-color: rgb(236, 170, 224);
+  padding: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.articleBody {
+  padding: 40px;
+  line-height: 20px;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  background-color: pink;
+  color: black;
 }
